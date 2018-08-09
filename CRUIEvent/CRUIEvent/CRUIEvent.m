@@ -20,7 +20,7 @@
 {
     self = [super init];
     if (self) {
-        _name = name;
+        _name = [name copy];
     }
     return self;
 }
