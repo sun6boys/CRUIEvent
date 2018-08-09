@@ -31,12 +31,12 @@
     return [[CRUIEvent alloc] initWithName:name];
 }
 
-- (void)sendForm:(UIResponder *)source
+- (void)sendFrom:(UIResponder *)source
 {
     [source sendEvent:self];
 }
 
-- (void)sendForm:(UIResponder *)source afterDelay:(NSTimeInterval)delay
+- (void)sendFrom:(UIResponder *)source afterDelay:(NSTimeInterval)delay
 {
     [source performSelector:@selector(sendEvent:) withObject:self afterDelay:delay];
 }

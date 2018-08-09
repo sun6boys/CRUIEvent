@@ -21,6 +21,6 @@
 
 + (CRUIEvent *)eventWithName:(NSString *)name;
 
-- (void)sendForm:(UIResponder *)source;
-- (void)sendForm:(UIResponder *)source afterDelay:(NSTimeInterval)delay;
+- (void)sendFrom:(UIResponder *)source;
+- (void)sendFrom:(UIResponder *)source afterDelay:(NSTimeInterval)delay;
 @end

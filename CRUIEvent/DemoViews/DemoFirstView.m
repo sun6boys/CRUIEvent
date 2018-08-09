@@ -61,7 +61,7 @@ extern NSString * const kDemoThirdViewEvent;
 {
     CRUIEvent *event = [CRUIEvent eventWithName:kDemoFirstViewEvent];
     event.source = self;
-    [event sendForm:self];
+    [event sendFrom:self];
 }
 
 #pragma mark - getters
