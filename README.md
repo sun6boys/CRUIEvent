@@ -24,8 +24,12 @@
 ### Delegate
 delegate是一种一对一的交互方式，通常用在2个能够建立关系的对象之间，这里显然Third View和Controller中间相隔了Second View 和 First View，很难直接和Controller建立联系。
 
+
+-------
+## Todo
+
 |  | Third View | Second View | First View | Controller's View | Controller|UIWindow | UIApplication| Appdelegate|
 | ------------- |:-------------:| -----:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Next Responder | right-aligned | $1600 |
+| Next Responder |  |  |
 
 
