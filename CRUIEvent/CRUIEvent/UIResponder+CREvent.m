@@ -20,6 +20,7 @@ static void * kUIResponder_Event_HandlerStorageKey = &kUIResponder_Event_Handler
     
     if([self hasRegisterEventHandlerForEventName:event.name] == NO){
         [[self nextResponder] sendEvent:event];
+        return;
     }
     
     CREventForwardCallBack callBackHandler = ^(BOOL forward, UIResponder *source){
